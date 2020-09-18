@@ -20,7 +20,7 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Kufam', cursive;
+  font-family: 'Cinzel Decorative', cursive;
   color: #2a2a2a;
 }
 
@@ -78,6 +78,10 @@ h1 {
   display: block;
   height: 60px;
   padding-top: 20.15px;
+}
+
+.header h1 {
+  font-family: Kufam;
 }
 
 nav {
