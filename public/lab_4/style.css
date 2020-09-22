@@ -105,7 +105,10 @@ h3 {
   margin: 0;
   padding: 0;
 }
-h1 {color: white;}
+h1 {
+  color: white;
+  text-align: center;
+}
 
 .flex-outer li,
 .flex-inner {
@@ -126,16 +129,7 @@ h1 {color: white;}
 .wrapper {
   flex-direction: column;
   display: flex;
-  align-items: center;
-}
-
-.content {
-  background: #fff;
-  border: 2px dotted rgb(221, 221, 221);
-  flex-grow: 2;
-  flex: 0 0 200px;
-  padding: 10px;
-  overflow-wrap: break-word;
+  
 }
 
 .header {
