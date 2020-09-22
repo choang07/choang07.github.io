@@ -1,2 +1,15 @@
 /*CSS*/
 
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+  background: #a7b0c4;
+  color: rgb(12, 11, 11) 
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+
+  }
