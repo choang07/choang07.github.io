@@ -1,7 +1,7 @@
 /*CSS*/
 
 body {
-  width: 70%;
+  width: 100%;
   min-width: 800px;
   margin: 0 auto;
   background: #a7b0c4;
@@ -9,6 +9,7 @@ body {
   }
 
   .wrapper {
+    width: 80%;
     display: flex;
     flex-direction: column;
 
@@ -16,4 +17,5 @@ body {
   h1 {
     justify-content: center;
     font-size: 38px;
+    color: #fff
   }
