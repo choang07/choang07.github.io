@@ -2,7 +2,7 @@
 
 body {
   background: #a7b0c4;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   margin-right: auto;
   line-height: 1.5;
   font-size: 20px;
@@ -12,7 +12,7 @@ body {
 .container {
   width: 80%;
   max-width: 1200px;
-  margin: 0 auto;
+ 
 }
 
 .container * {
@@ -38,7 +38,7 @@ body {
 }
 
 .flex-inner {
-  padding: 0 8px;
+  padding: 8px;
   justify-content: space-between;  
 }
 
@@ -68,7 +68,10 @@ body {
 }
 
 input, textarea {
-  min-width: 65%; 
+  min-width: 100%; 
+}
+label {
+  min-height: 10px;
 }
 textarea {
   min-height: 8em;
@@ -84,9 +87,6 @@ textarea {
   border-radius: 2px;
 }
 
-.flex-inner li {
-  width: 100px;
-}
 
 ul {
   list-style: none;
