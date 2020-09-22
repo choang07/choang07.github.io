@@ -6,8 +6,54 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
+    <h1>Marzena Hurtado's Lab 4</h1>
     <div class:container>
 
     </div>
     <div class:wrapper></div>
+    <form>
+      <ul class="flex-outer">
+        <li>
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" maxlength="140">
+        </li>
+        <li>
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" maxlength="140">
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input type="email" id="email">
+        </li>
+        <li>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone">
+        </li>
+        <li>
+          <label for="message">Text field</label>
+          <textarea rows="5" cols="33" id="message"></textarea>
+        </li>
+        <li>
+         
+          <ul class="flex-inner">
+            <li>
+              <input type="checkbox" id="age18-35" name="age18-35" >
+              <label for="age18-35">18-35</label>
+            </li>
+            <li>
+              <input type="checkbox" id="age35-50" name="age35-50" >
+              <label for="age35-50">35-50</label>
+            </li>
+            <li>
+              <input type="checkbox" id="age50-65" name="age50-65">
+              <label for="age50-65">50-65</label>
+            </li>
+            
+          </ul>
+        </li>
+        <li>
+          <button type="submit">SUBMIT FORM</button>
+        </li>
+      </ul>
+    </form>
   </body>
