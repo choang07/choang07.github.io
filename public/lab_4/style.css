@@ -13,3 +13,7 @@ body {
     flex-direction: column;
 
   }
+  h1 {
+    justify-content: center;
+    font-size: 8px;
+  }
