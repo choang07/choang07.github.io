@@ -31,6 +31,13 @@ h1 {color: white;}
   text-overflow: ellipsis;
   max-width: 200px;
 }
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 
 .container {
   display: flex;
