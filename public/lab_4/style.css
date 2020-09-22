@@ -67,8 +67,12 @@ body {
   margin: 0;
 }
 
-
-
+input, textarea {
+  min-width: 65%; 
+}
+textarea {
+  min-height: 8em;
+}
 .flex-outer li button {
   margin-left: auto;
   padding: 8px 16px;
