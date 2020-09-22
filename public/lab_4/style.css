@@ -84,7 +84,7 @@ h3 {
   background-color: royalblue;
 }
 
-textarea {
+#textarea {
   display: block;
   box-shadow: 5px 1px rgb(214, 210, 210);
   letter-spacing: 1px;
