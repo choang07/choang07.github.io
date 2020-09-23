@@ -32,8 +32,9 @@ h1 {
 }
 .flex-outer li input:not([type="checkbox"]),
 .flex-outer li textarea {
+  display: flex;
   width: 100%;
-  padding: 8px;
+  padding: 10px 0;
 }
 label, p {
   width: 150px;
