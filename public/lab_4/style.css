@@ -40,3 +40,8 @@ flex-inner {
   flex-wrap:wrap;
   align-items:center;
 }
+flex_inner li input {
+  display: flex;
+  justify-content: space between;
+
+}
