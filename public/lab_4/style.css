@@ -3,15 +3,20 @@
 body {  
   background:#152d94;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  justify-content: center;
+  
 }
 .container{
   min-width: 360px;
   width: 80%;
   margin: 20px auto;
   background: #4b7ff0;
+  align-self: center;
 }
-.flex_outer {
+h1 {
+  color:white;
+  text-align: center;
+}
+.flex_outer li{
   list-style-type: none;
 }
 
