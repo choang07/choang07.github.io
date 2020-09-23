@@ -7,7 +7,7 @@ body {
 }
 .container{
   min-width: 360px;
-  width: 80%;
+  width: 65%;
   margin: 20px auto;
   background: #4b7ff0;
   align-self: center;
@@ -16,7 +16,7 @@ h1 {
   color:white;
   text-align: center;
 }
-.flex_outer li{
+.flex-outer li{
   list-style-type: none;
 }
 
