@@ -32,14 +32,12 @@ h1 {
 }
 .flex-outer li input:not([type="checkbox"]),
 .flex-outer li textarea {
-  padding: 20px;
+  width: 100%;
+  padding: 8px;
 }
 label, p {
   width: 150px;
 }
-.wrapper {
-  flex-wrap: no wrap;
-  flex-direction: row;
-}
+
 
 
