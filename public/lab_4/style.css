@@ -21,7 +21,7 @@ h1 {
   color: #fff;
   font-size: 4rem;
   font-weight: 100;
-  padding-top: 8px;
+  padding-top: 2px;
 }
 .flex-inner {
   padding: 0 8px;
@@ -31,6 +31,6 @@ h1 {
   flex: 2;
   padding: 8px;
 }
-.flex-outer input, .flex-outer textarea, .flex-inner input {
+textarea, input {
   flex: 3;
 }
