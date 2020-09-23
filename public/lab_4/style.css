@@ -34,8 +34,8 @@ label {
 textarea, input {
   flex: 3;
 }
-flex_outer li, 
-flex-inner {
+.flex_outer li, 
+.flex-inner {
   display: flex;
   flex-wrap:wrap;
   align-items:center;
