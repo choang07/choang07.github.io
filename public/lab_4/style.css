@@ -9,18 +9,16 @@ body {
   margin: 0 auto;
   background-color: #1874CD
 }
-  
-
-  .wrapper {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  h1 {
-    text-align: center;
-    font-size: 38px;
-    color: #fff;
-    font-size: 4rem;
-    font-weight: 100;
-   }
+.wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-size: 38px;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 100;
+}
