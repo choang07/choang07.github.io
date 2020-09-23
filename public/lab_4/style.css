@@ -40,6 +40,7 @@ textarea, input {
   flex-wrap:wrap;
   align-items:center;
   padding: 0 8px;
+  margin: 8px;
 }
 flex_inner li input, flex-outer li{
   display: flex;
