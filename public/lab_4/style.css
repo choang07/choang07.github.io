@@ -10,8 +10,9 @@ body {
   font-family: Arial;
 }
 .container{
-  display: flex;
-  align-self: center;
+  max-width: 460px;
+  width: 100%;
+  margin: 20px auto;
   background: #4b7ff0;
 }
 .wrapper {
