@@ -25,7 +25,6 @@ h1 {
 }
 .flex-outer li {
   display: flex;
-  flex-wrap: no wrap;
   flex-direction: row;
   align-items: center;
   padding: 8px;
@@ -44,7 +43,7 @@ h1 {
   max-width: 500px;
   padding: 5px 0;
 }
-label, .flex-inner li p {
+label, p {
   width: 150px;
   font-size: 12px;
   font-weight: bold;
