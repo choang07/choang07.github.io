@@ -10,7 +10,7 @@ body {
   font-family: Arial;
 }
 .container{
-  min-width: 560px;
+  min-width: 360px;
   width: 100%;
   margin: 20px auto;
   background: #4b7ff0;
