@@ -33,7 +33,7 @@ h1 {
 .flex-inner {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content:space-between;
 }
 .flex-outer li input:not([type="checkbox"]),
 .flex-outer li textarea {
