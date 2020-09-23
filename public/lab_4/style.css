@@ -38,6 +38,8 @@ h1 {
 }
 label, p {
   width: 150px;
+  font-size: 12px;
+  text-emphasis: yes;
 }
 
 
