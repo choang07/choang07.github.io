@@ -51,7 +51,9 @@ label, p {
   margin-bottom: 25px;
   margin-top: 15px;
   padding: 5px 15px;
-  border: black;
+  background-color: lime;
+  border: 3px;
+  border-color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
