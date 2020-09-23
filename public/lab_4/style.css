@@ -23,10 +23,11 @@ h1 {
 .flex-outer, .flex-inner {
   list-style-type: none;
 }
-.flex-outer li, .flex-inner {
+.flex-outer li {
   display: flex;
   flex-wrap: no wrap;
-  padding: 15px;
+  flex-direction: row;
+  padding: 8px;
 
 }
 .flex-outer li input:not([type="checkbox"]),
