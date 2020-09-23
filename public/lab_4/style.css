@@ -1,7 +1,7 @@
 /*CSS*/
 
 body {  
-  background:#152d94;
+  background: #4b7ff0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
@@ -9,7 +9,6 @@ body {
   min-width: 160px;
   width: 75%;
   margin: 20px auto;
-  background: #4b7ff0;
   align-self: center;
 }
 h1 {
