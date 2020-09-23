@@ -32,7 +32,7 @@ label {
   padding: 8px;
 }
 textarea, input {
-  flex: 3;
+  width: 220px;
 }
 .flex_outer li, 
 .flex-inner {
