@@ -41,8 +41,10 @@ textarea, input {
   align-items:center;
   padding: 0 8px;
 }
-flex_inner li input {
+flex_inner li input, flex-outer li{
   display: flex;
   justify-content: space between;
+  margin-bottom: 20px;
+  width: 220px;
 
 }
