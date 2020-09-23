@@ -43,7 +43,7 @@ h1 {
   justify-content: space-around;
 }
 label, p {
-  justify-content: flex-start;
+  text-align: left;
   min-width: 320px;
   
 }
