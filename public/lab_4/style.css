@@ -10,7 +10,7 @@ body {
   font-family: Arial;
 }
 .container{
-  max-width: 460px;
+  min-width: 560px;
   width: 100%;
   margin: 20px auto;
   background: #4b7ff0;
@@ -42,16 +42,16 @@ h1 {
 .flex-inner ul{
   justify-content: space-around;
 }
-.flex-outer label {
+label, p {
   justify-content: flex-start;
-  width: 220px;
+  min-width: 320px;
   
 }
 textarea, input {
-  width: 220px;
+  min-width: 350px;
 }
-.flex-outer li,
-.flex-outer li, p {
+
+li, p {
   list-style-type: none;
 }
 .flex_outer li, 
