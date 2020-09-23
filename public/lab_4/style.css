@@ -34,6 +34,11 @@ label {
 textarea, input {
   width: 220px;
 }
+.flex-outer li {
+  padding: 8px;
+  margin: 8px;
+  width: 5
+}
 .flex_outer li, 
 .flex-inner {
   display: flex;
@@ -42,7 +47,7 @@ textarea, input {
   padding: 0 8px;
   margin: 8px;
 }
-flex_inner li input, flex-outer li{
+.flex_inner li input, flex-outer li{
   display: flex;
   justify-content: space between;
   margin-bottom: 20px;
