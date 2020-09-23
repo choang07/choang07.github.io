@@ -27,7 +27,7 @@ h1 {
   padding: 0 8px;
   justify-content: space-between;
 }
-.flex-outer label, .flex-inner label {
+label {
   flex: 2;
   padding: 8px;
 }
