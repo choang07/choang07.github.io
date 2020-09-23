@@ -1,7 +1,7 @@
 /*CSS*/
 
-body {
-  background: #4b7ff0;
+body {  
+  background:#152d94;
   color: rgb(12, 11, 11); 
   padding: 50px 0;
   width: 80%;
@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background:#152d94;
+  background: #4b7ff0;
 }
 h1 {
   text-align: center;
