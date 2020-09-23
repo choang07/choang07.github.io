@@ -50,9 +50,9 @@ h1 {
 textarea, input {
   width: 220px;
 }
-.flex-outer > li > label,
-.flex-outer li p {
-  flex: 1 0 220px;
+.flex-outer li,
+.flex-outer li, p {
+  list-style-type: none;
 }
 .flex_outer li, 
 .flex-inner {
