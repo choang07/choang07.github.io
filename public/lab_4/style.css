@@ -30,6 +30,9 @@ h1 {
 label, p {
   width: 150px;
 }
-
+.wrapper {
+  flex-wrap: no wrap;
+  flex-direction: row;
 }
+
 
