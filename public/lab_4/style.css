@@ -53,7 +53,7 @@ textarea, input {
   padding: 0 8px;
   margin: 8px;
 }
-.flex_inner li input, flex-outer li{
+.flex_inner ul {
   display: flex;
   justify-content: space between;
   margin-bottom: 20px;
