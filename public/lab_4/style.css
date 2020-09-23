@@ -25,7 +25,7 @@ h1 {
 }
 .flex-outer li, .flex-inner {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no wrap;
 
 }
 label, p {
