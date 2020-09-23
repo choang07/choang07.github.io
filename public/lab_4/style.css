@@ -35,6 +35,7 @@ h1 {
 .flex-outer li textarea {
   display: flex;
   flex: 1;
+  max-width: 500px;
   padding: 5px 0;
 }
 label, p {
