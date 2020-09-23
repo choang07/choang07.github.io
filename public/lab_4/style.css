@@ -27,5 +27,5 @@ h1 {
   flex: 2
 }
 .flex-outer input, .flex-outer textarea, .flex-inner input {
-  flex: 2
+  flex: 3
 }
