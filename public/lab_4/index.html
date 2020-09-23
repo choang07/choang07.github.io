@@ -6,37 +6,34 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
+    <form>
       <h1>Marzena Hurtado's Lab 4</h1>
-    
-      <div class="wrapper">
-        <form>
-          <ul class="flex-outer">
-            <li>
-              <label for="first_name">First Name</label>
-              <input type="text" id="first_name" maxlength="140">
-            </li>
-            <li>
-              <label for="last_name">Last Name</label>
-              <input type="text" id="last_name" maxlength="140">
-            </li>
-            <li>
-              <label for="email">Email</label>
-              <input type="email" id="email">
-            </li>
-            <li>
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone">
-            </li>
-            <li>
-              <label for="message">Text field</label>
-              <textarea rows="5" cols="33" id="message"></textarea>
-            </li>
-            <li>
+      <div class="container">
+        <ul class="flex-outer">
+          <li>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" maxlength="140">
+          </li>
+          <li>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" maxlength="140">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+          </li>
+          <li>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone">
+          </li>
+          <li>
+            <label for="message">Text field</label>
+            <textarea rows="5" cols="33" id="message"></textarea>
+          </li>
+          <li>
+            <div class="wrapper">  
+              <p>Age</p>
               <ul class="flex-inner">
-                <li>
-                  <p>Age</p>
-                </li>
                 <li>
                   <input type="checkbox" id="age18-35" name="age18-35" >
                   <label for="age18-35">18-35</label>
@@ -50,12 +47,11 @@
                   <label for="age50-65">50-65</label>
                 </li>
               </ul>
-            </li>
-            <li>
-              <button type="submit" method="">SUBMIT FORM</button>
-            </li>
-          </ul>
-        </form>
+            </div>
+          <li>
+            <button type="submit" method="">SUBMIT FORM</button>
+          </li>
+        </ul>
       </div>
-    </div>
+    </form>
   </body>
