@@ -37,21 +37,18 @@ h1 {
   margin-top: 5px;
 }
 .flex-inner ul{
-  padding: 0 8px;
   justify-content: space-around;
 }
 label {
   width: 260px;
-  padding: 8px;
+  
 }
 textarea, input {
   width: 220px;
 }
-.flex-outer ul {
-  padding: 8px;
-  margin: 8px;
-  display: flex;
-  width: 5;
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 220px
 }
 .flex_outer li, 
 .flex-inner {
