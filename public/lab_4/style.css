@@ -16,6 +16,10 @@ body {
   justify-content: center;
   background: #4b7ff0;
 }
+form {
+  display: flex;
+  width: 5;
+}
 .flex_outer,
 .flex-inner {
   list-style-type: none;
