@@ -29,7 +29,12 @@ h1 {
   flex-direction: row;
   align-items: center;
   padding: 8px;
+}
 
+.flex-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .flex-outer li input:not([type="checkbox"]),
 .flex-outer li textarea {
@@ -41,7 +46,7 @@ h1 {
 label, p {
   width: 150px;
   font-size: 12px;
-  text-emphasis: yes;
+  font-weight: bold;
 }
 
 
