@@ -16,7 +16,7 @@ h1 {
   color:white;
   text-align: center;
 }
-.flex-outer li{
+.flex-outer, .flex-inner {
   list-style-type: none;
 }
 
