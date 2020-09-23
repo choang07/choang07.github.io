@@ -26,6 +26,6 @@ h1 {
 .flex-outer label, .flex-inner label {
   flex: 2
 }
-flex-outer input, flex-outer textarea, flex-inner input {
+.flex-outer input, .flex-outer textarea, .flex-inner input {
   flex: 2
 }
