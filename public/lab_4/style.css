@@ -10,6 +10,8 @@ body {
   font-family: Arial;
 }
 .container{
+  display: flex;
+  align-self: center;
   background: #4b7ff0;
 }
 .wrapper {
