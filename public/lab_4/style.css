@@ -13,6 +13,7 @@ body {
   align-self: center;
 }
 h1 {
+  font-size: 18px;
   color:white;
   text-align: center;
   margin-top: 15px;
@@ -24,6 +25,6 @@ h1 {
 .flex-outer li, .flex-inner {
   display: flex;
   flex-wrap: wrap;
-  
+
 }
 
