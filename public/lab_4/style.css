@@ -48,7 +48,7 @@ textarea, input {
 }
 .flex-outer > li > label,
 .flex-outer li p {
-  flex: 1 0 220px
+  flex: 1 0 220px;
 }
 .flex_outer li, 
 .flex-inner {
@@ -58,8 +58,8 @@ textarea, input {
   padding: 0 8px;
   margin: 8px;
 }
-.flex_inner ul{
+.flex_inner {
   display: flex;
-  justify-content: space between;
+  flex-direction: row;
   width: 220px;
 }
