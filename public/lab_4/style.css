@@ -39,8 +39,9 @@ h1 {
 .flex-inner ul{
   justify-content: space-around;
 }
-label {
-  width: 260px;
+.flex-outer label {
+  justify-content: flex-start;
+  width: 220px;
   
 }
 textarea, input {
