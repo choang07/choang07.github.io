@@ -17,9 +17,15 @@ body {
 }
 h1 {
   text-align: center;
-  font-size: 38px;
+  font-size: 28px;
   color: #fff;
   font-size: 4rem;
   font-weight: 100;
   padding-top: 8px;
+}
+.flex-outer label, .flex-inner label {
+  flex: 2
+}
+flex-outer input, flex-outer textarea, flex-inner input {
+  flex: 2
 }
