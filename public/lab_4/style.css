@@ -23,6 +23,10 @@ h1 {
   font-weight: 100;
   padding-top: 8px;
 }
+.flex-inner {
+  padding: 0 8px;
+  justify-content: space-between;
+}
 .flex-outer label, .flex-inner label {
   flex: 2;
   padding: 8px;
