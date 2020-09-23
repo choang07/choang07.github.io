@@ -38,7 +38,7 @@ h1 {
 }
 .flex-inner ul{
   padding: 0 8px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 label {
   width: 260px;
