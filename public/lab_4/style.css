@@ -46,5 +46,7 @@ flex_inner li input, flex-outer li{
   justify-content: space between;
   margin-bottom: 20px;
   width: 220px;
-
+}
+label {
+  width: 180px;
 }
