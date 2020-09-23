@@ -50,6 +50,8 @@ label, p {
 .flex-outer li button {
   margin-bottom: 25px;
   margin-top: 15px;
+  padding: 5px 15px;
+  border: black;
   font-weight: bold;
 }
 
