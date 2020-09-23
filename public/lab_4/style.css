@@ -48,6 +48,9 @@ label, p {
   font-size: 12px;
   font-weight: bold;
 }
-
+.flex-outer li button {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
 
 
