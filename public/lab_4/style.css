@@ -18,7 +18,9 @@ body {
     justify-content: center;
   }
   h1 {
-    justify-content: center;
+    text-align: center;
     font-size: 38px;
-    color: #fff
-  }
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 100;
+   }
