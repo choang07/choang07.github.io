@@ -40,9 +40,10 @@ label {
 textarea, input {
   width: 220px;
 }
-.flex-outer li {
+.flex-outer ul {
   padding: 8px;
   margin: 8px;
+  display: flex;
   width: 5;
 }
 .flex_outer li, 
