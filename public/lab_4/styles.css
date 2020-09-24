@@ -35,6 +35,7 @@ h1 {
 }
 .flex-inner li {
   width: 80px;
+  align-items: center;
 }
 .flex-outer li label {
   flex: 1 0 125px;
