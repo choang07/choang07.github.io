@@ -33,10 +33,12 @@ h1 {
 }
 .flex-inner le {
   width: 80px;
+
 }
 
 .flex-inner {
   display: flex;
+  flex: 1 0 225px;
   flex-direction: row;
   justify-content:space-between;
 }
