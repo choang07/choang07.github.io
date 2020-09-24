@@ -38,6 +38,7 @@ h1 {
   flex-direction: row;
   width: 80px;
   align-items: center;
+  justify-content:space-between;
 }
 .flex-outer li label {
   flex: 1 0 125px;
