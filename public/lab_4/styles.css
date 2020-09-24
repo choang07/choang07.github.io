@@ -55,6 +55,9 @@ h1 {
   max-width: 500px;
   padding: 5px 0;
 }
+#checkbox {
+  padding-top: 5px;
+}
 .flex-outer li p {
   flex: 1 0 125px;
   max-width: 225px;
@@ -71,6 +74,7 @@ label, p {
   margin-bottom: 25px;
   margin-top: 15px;
   padding: 6px 12px;
+  border-radius: 3px;
   background-color: lime;
   border-color: rgb(0, 0, 0);
   
