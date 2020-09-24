@@ -44,6 +44,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   flex: 1 0 225px;
+  align-items: center;
   flex-direction: row;
   justify-content:space-between;
 }
@@ -54,6 +55,9 @@ h1 {
   max-width: 500px;
   padding: 5px 0;
 }
+.flex-outer li p {
+  flex: 1 0 125px;
+}
 label, p {
   font-size: 15px;
   font-weight: bold;
@@ -61,13 +65,14 @@ label, p {
 }
 .flex-outer button {
   text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing:'1.2px';
   margin-bottom: 25px;
   margin-top: 15px;
   padding: 6px 12px;
   background-color: lime;
   border-color: rgb(0, 0, 0);
-  font-weight: bold;
-  letter-spacing:'1.2px';
+  
 }
 
 
