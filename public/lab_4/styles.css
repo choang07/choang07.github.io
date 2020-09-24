@@ -63,8 +63,7 @@ label, p {
   background-color: lime;
   border-color: rgb(0, 0, 0);
   font-weight: bold;
+  letter-spacing:'1.2px';
 }
-.flex-outer li input [type="checkbox"] {
-  width: 80px;
-}
+
 
