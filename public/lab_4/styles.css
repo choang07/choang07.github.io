@@ -34,7 +34,6 @@ h1 {
 }
 .flex-inner li {
   width: 80px;
-
 }
 .flex-outer li label {
   flex: 1 0 125px;
