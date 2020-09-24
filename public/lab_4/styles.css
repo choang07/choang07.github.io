@@ -31,6 +31,9 @@ h1 {
   align-items: center;
   padding: 8px;
 }
+.flex-inner le {
+  width: 80px;
+}
 
 .flex-inner {
   display: flex;
@@ -51,6 +54,7 @@ label, p {
   padding: 8px;
 }
 .flex-outer li button {
+  text-transform: uppercase;
   margin-bottom: 25px;
   margin-top: 15px;
   padding: 6px 12px;
