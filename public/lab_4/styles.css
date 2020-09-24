@@ -19,6 +19,9 @@ h1 {
   margin-bottom: 25px;
   padding-top: 25px;
 }
+.flex-outer {
+  max-width: 800px;
+}
 .flex-outer, .flex-inner {
   list-style-type: none;
 }
@@ -37,7 +40,7 @@ h1 {
 .flex-outer li input:not([type="checkbox"]),
 .flex-outer li textarea {
   display: flex;
-  flex: 1;
+  flex: 1 0 225px;
   max-width: 500px;
   padding: 5px 0;
 }
@@ -45,14 +48,17 @@ label, p {
   width: 200px;
   font-size: 15px;
   font-weight: bold;
+  padding: 8px;
 }
 .flex-outer li button {
   margin-bottom: 25px;
   margin-top: 15px;
-  padding: 5px 15px;
+  padding: 6px 12px;
   background-color: lime;
   border-color: rgb(0, 0, 0);
   font-weight: bold;
 }
-
+.flex-outer li input [type="checkbox"] {
+  width: 80px;
+}
 
