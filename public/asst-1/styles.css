@@ -18,7 +18,7 @@ body {
   width: 90%;
   min-width: 800px;
   margin: 0 auto;
-  background-color: lightsalmon;
+  background-color:whitesmoke;
 }
 .header {
   display: flex;
