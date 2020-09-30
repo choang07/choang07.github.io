@@ -14,11 +14,12 @@ p, li {
   color: #2a2a2a;
 }
 
-body {
+.bodyclass {
   width: 90%;
   min-width: 800px;
   margin: 0 auto;
-  background-color:whitesmoke;
+  background-color: lightsalmon;
+  /* background-color:whitesmoke; */
 }
 .header {
   display: flex;
@@ -57,11 +58,11 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-/*.container .profile {
+.container .profile {
   flex: 0 1 auto;
   margin-right: 15px;
-}*/
-.container .profile img {
+}
+.profile img {
   height: 250px;
   width: 175px;
   border-radius: 4px;
@@ -115,13 +116,13 @@ body {
 }
 
 @media screen and (max-width:1000px){
-   .container{
-      max-width: 960;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-direction: row;
+  .container{
+    max-width: 960;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
   } 
 
   .body {
