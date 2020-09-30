@@ -31,7 +31,8 @@ body {
 }
 .header img {
   height: 200px;
-  border-radius: 1px;
+  
+  
 }
 .header .subject {
   font-size: 20pt;
@@ -60,6 +61,8 @@ body {
   height: 250px;
   width: 175px;
   border-radius: 4px;
+  border: 1px;
+  border-color: rgb(220, 20, 20, 1)
   border: solid 1px transparent;
 }
 
