@@ -1,11 +1,9 @@
 h1 {
   font-family: 'Londrina Shadow', cursive;
   color: white;
-  text-shadow: 2px 2px 20px red;
   display:block;
   justify-content: space-around;
   font-weight: 200px;
-  font-size: 35px;
   margin-top:50px;
 }
 
@@ -31,7 +29,7 @@ body {
 }
 
 .header .subject {
-  font-size: 20pt;
+  font-size: 350pt;
   margin-left: 30px;
 }
 
