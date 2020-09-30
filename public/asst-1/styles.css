@@ -53,10 +53,10 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.container .profile {
+/*.container .profile {
   flex: 0 1 auto;
   margin-right: 15px;
-}
+}*/
 .container .profile img {
   height: 250px;
   width: 175px;
@@ -111,9 +111,9 @@ body {
 }
 
 @media screen and (max-width:1000px){
-  /* .container{
+   .container{
       justify-content: center;
-  } */
+  } 
 
   body {
     width: 800px;
@@ -127,11 +127,12 @@ body {
   .container .profile {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 15px;
     margin-right: 0px;
-    width: 100%;
+   /* width: 100%;*/
     flex: 1 0 auto;
   }
 
