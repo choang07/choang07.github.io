@@ -70,7 +70,7 @@ body {
   border-style: solid;
 }
 
-.container .profile p {
+.profile p {
   padding: 15px;
   background-color: whitesmoke;
   border-radius: 4px;
@@ -79,7 +79,7 @@ body {
   border: solid 1 px transparent;
 }
 
-.container .content {
+.content {
   background-color: lightgray;
   border-radius: 4px;
   padding: 20px;
@@ -116,7 +116,12 @@ body {
 
 @media screen and (max-width:1000px){
    .container{
-      justify-content: center;
+      max-width: 960;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
   } 
 
   body {
@@ -128,8 +133,12 @@ body {
     justify-content: center;
   }
 
-  .container .profile {
-    display: flex;
+  .profile {
+    flex: 0 1 auto;
+    margin-right: 15px;
+    width: 180px;
+
+  /*  display: flex;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: space-evenly;
@@ -137,13 +146,14 @@ body {
     margin-bottom: 15px;
     margin-right: 15px;
     flex: 1 0 auto;
+    */
   }
 
-  .container .profile p {
+  .profile p {
     margin: 15px;
   }
 
-  .container .profile img {
+  .profile img {
     margin-left: 15px;
   }
 
