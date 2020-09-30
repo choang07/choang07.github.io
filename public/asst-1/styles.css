@@ -31,9 +31,12 @@ body {
 .header .subject {
   font-size: 35pt;
   margin-left: 45px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .wrapper {
+  max-width: 960px;
   background-color: lightsalmon;
   display: flex;
   justify-content: center;
