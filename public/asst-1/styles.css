@@ -29,6 +29,7 @@ body {
 }
 .header img {
   height: 200px;
+  border-radius: 1px;
 }
 .header .subject {
   font-size: 20pt;
