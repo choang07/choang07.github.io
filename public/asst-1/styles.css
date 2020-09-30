@@ -35,7 +35,9 @@ body {
   font-size: 35pt;
   margin-left: 45px;
 }
-
+.collorfiller {
+  background-color: lightsalmon;
+}
 .wrapper {
   padding-top: 15px;
   display: flex;
@@ -133,8 +135,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 15px;
-    margin-right: 0px;
-   /* width: 100%;*/
+    margin-right: 15px;
     flex: 1 0 auto;
   }
 
