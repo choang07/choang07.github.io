@@ -135,7 +135,7 @@ body {
 
   .profile {
     flex: 1 0 auto;
-    margin-right: 15px;
+    margin-right: 0px;
     width: 180px;
 
   /*  display: flex;
