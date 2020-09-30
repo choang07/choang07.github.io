@@ -3,10 +3,10 @@ h1 {
   color: white;
   text-shadow: 2px 2px 20px red;
   display:block;
-  justify-content: flex-start;
+  justify-content: space-around;
   font-weight: 200px;
-  font-size: 45px;
-  margin-top:70px;
+  font-size: 35px;
+  margin-top:50px;
 }
 
 p, li {
