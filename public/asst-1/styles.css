@@ -72,6 +72,7 @@ body {
   border-radius: 4px;
   flex: 0 1 auto;
   margin: 5px 0 0 0;
+  border: solid 1 px transparent;
 }
 
 .container .content {
@@ -135,7 +136,7 @@ body {
   }
 
   .container .profile p {
-    margin-right: 15px;
+    margin: 15px;
   }
 
   .container .profile img {
