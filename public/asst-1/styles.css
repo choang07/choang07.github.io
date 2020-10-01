@@ -75,6 +75,7 @@ body {
   border-color: rgb(161, 98, 0, 3);
   border: solid 1 px transparent;
   border-style: groove;
+  overflow-wrap: normal;
 }
 .content {
   flex: 0 2 auto;
