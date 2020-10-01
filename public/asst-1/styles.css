@@ -119,6 +119,10 @@ body {
     margin-left: 25px;
     margin-right: 15px;
   }
+  .profile p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 } 
 /*specs for mobile screen*/
 @media screen and (max-width:375px){
