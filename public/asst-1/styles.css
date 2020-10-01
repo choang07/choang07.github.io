@@ -94,6 +94,7 @@ body {
 .text {
   display: flex;
   flex-flow: row wrap;
+  flex: 4;
 }
 .title {
   font-size: medium;
