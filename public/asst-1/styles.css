@@ -126,8 +126,12 @@ body {
   }
   .content {
     min-width: 350px;
-  }
-} 
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding: 20px;
+    margin-bottom: 15px;
+  } 
+ }
 /*specs for mobile screen*/
 @media screen and (max-width:375px){
   .container {
@@ -146,10 +150,5 @@ body {
     margin-bottom: 30px;
     margin-top: 20px;
   } 
-  .content {
-    flex-direction: column;
-    flex: 1 0 auto;
-    padding: 20px;
-    margin-bottom: 15px;
-  }
+  
 }
