@@ -97,8 +97,7 @@ body {
 .text {
   display: flex;
   flex-flow: row wrap;
-  flex: 4;
-}
+ }
 .title {
   font-size: medium;
   font-style: italic;
@@ -109,6 +108,7 @@ body {
 
 @media screen and (max-width:1000px) {
   .container {
+    flex-direction: column;
     justify-content: center;
     padding-left: 5px;
     padding-right: 5px;
