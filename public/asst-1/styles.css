@@ -18,7 +18,7 @@ body {
   width: 90%;
   min-width: 800px;
   margin: 0 auto;
-  background-color:rgb(161, 98, 0, 63); 
+  background-color:rgb(255, 237, 209, 100); 
 }
 .header {
   display: flex;
