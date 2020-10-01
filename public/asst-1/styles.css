@@ -125,24 +125,21 @@ body {
     flex: 1 0 auto;
   }
   .profile p {
-    margin: 15px;
+    margin-left: 15px;
   }
   .profile img {
     margin-left: 15px;
   }
 }
 @media screen and (max-width:375px){
-  /* .container{
-      justify-content: center;
-  } */
-  .profile {
+  .container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  /*.profile {
     display:flex;
     align-items: center;
     flex-wrap: wrap;
-  }
-}
-@media screen and (min-width:1001px) {
-  /* .container{
-      justify-content: center;
   } */
 }
