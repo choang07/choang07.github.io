@@ -130,10 +130,9 @@ body {
   }
   .content {
     min-width: 200px;
-    display: flex;
     padding: 20px;
     margin-bottom: 15px;
-  } 
+    } 
   .intro {
     display: flex;
     flex-wrap: wrap;
