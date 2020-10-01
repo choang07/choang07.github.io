@@ -111,7 +111,7 @@ body {
     justify-content: space-evenly;
     margin-right: 5px;
     margin-bottom: 10px;
-    flex: 0 1 auto;
+    flex: 0 1 300;
   }
   .profile img {
     margin-left: 15px;
