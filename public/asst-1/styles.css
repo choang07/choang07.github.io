@@ -1,5 +1,4 @@
 
-
 h1 {
   font-family: 'Londrina Shadow', cursive;
   color: white;
@@ -8,18 +7,17 @@ h1 {
   font-weight: 260px;
   margin-top:5px;
 }
-
 p, li {
   font-family: 'Roboto Slab', serif;
   color: #2a2a2a;
 }
-
 body {
   width: 95%;
   min-width: 800px;
   margin: 0 auto;
   background-color:rgb(255, 237, 209, 100); 
 }
+/*this additional container was created to be able to fill the separation between .header and .wrapper*/
 .extrawrapper {
   background-color: rgb(235,164,54,92);
 }
@@ -37,7 +35,6 @@ body {
   margin-left: 25px;
 }
 .wrapper {
-  padding-top: 10px;
   display: flex;
   flex: 0 1 auto;
   flex-direction: column;
@@ -45,10 +42,9 @@ body {
   background-color: rgb(235,164,54,92);
 }
 .container {
-  display: flex;
   max-width: 960px;
   min-height: 100%;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
