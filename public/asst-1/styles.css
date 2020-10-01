@@ -110,8 +110,8 @@ body {
   .container {
     flex-direction: column;
     justify-content: center;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: 10px;
     margin-right: 10px;;
   }
