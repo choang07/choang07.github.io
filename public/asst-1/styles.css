@@ -18,7 +18,7 @@ body {
   width: 90%;
   min-width: 800px;
   margin: 0 auto;
-  background-color:rgb(255, 237, 209, 100); 
+  background-color:rgb(161, 98, 0, 63); 
 }
 .header {
   display: flex;
@@ -60,7 +60,7 @@ body {
   width: 180px;
   border-radius: 4px;
   border-width: 1px;
-  border-color: rgb(10, 97, 168, 66);
+  border-color: rgb(161, 98, 0, 63);
   border-style: solid;
 }
 
@@ -69,7 +69,9 @@ body {
   background-color: rgb(255, 237, 209, 100);
   border-radius: 4px;
   flex: 1 0 auto;
+  border-color: rgb(161, 98, 0, 3);
   border: solid 1 px transparent;
+  border-style: groove;
 }
 .content {
   flex: 0 2 auto;
