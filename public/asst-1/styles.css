@@ -37,7 +37,7 @@ body {
   margin-left: 25px;
 }
 .wrapper {
-  padding-top: 15px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,7 +87,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: bolder;
   margin-bottom: 20px;
-  color: rgb(161, 98, 0, 50);
+  color: rgb(161, 98, 0, 80);
 }
 
 .title {
