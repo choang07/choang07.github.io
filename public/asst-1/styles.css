@@ -20,6 +20,9 @@ body {
   margin: 0 auto;
   background-color:rgb(255, 237, 209, 100); 
 }
+.extrawrapper {
+  background-color: rgb(235,164,54,92);
+}
 .header {
   display: flex;
   flex-flow: row wrap;
@@ -80,12 +83,11 @@ body {
   padding: 15px;
   border-color: rgb(10, 97, 168, 66);
 }
-
  .content h2 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: bolder;
   margin-bottom: 20px;
-  color: rgb(161, 98, 0, 3);
+  color: rgb(161, 98, 0, 50);
 }
 
 .title {
