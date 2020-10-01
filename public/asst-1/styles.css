@@ -130,7 +130,8 @@ body {
   }
   .content {
     min-width: 200px;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
     margin-bottom: 15px;
