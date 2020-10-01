@@ -111,7 +111,7 @@ body {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-right: 5px;
+    flex-flow: row;
     margin-bottom: 10px;
     width: max-content;
     flex: 0 1 auto;
