@@ -101,8 +101,9 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
-    margin-right: 10px;;
-  }
+    margin-right: 10px;
+    align-items: center;
+   }
   .profile {
     display: flex;
     flex-direction: row;
