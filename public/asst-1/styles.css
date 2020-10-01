@@ -110,8 +110,8 @@ body {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     margin-right: 5px;
-    margin-bottom: 12px;
-    flex: 1 0 auto;
+    margin-bottom: 10px;
+    flex: 0 1 auto;
   }
   .profile img {
     margin-left: 15px;
