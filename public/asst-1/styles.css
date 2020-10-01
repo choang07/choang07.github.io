@@ -102,7 +102,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
-    align-items: center;
+    align-items: flex-start;
    }
   .profile {
     display: flex;
@@ -114,6 +114,7 @@ body {
     margin-bottom: 10px;
     min-width: 400px;
     width: max-content;
+    margin-right: 0px;
     flex: 1 0 auto;
   }
   .profile img {
