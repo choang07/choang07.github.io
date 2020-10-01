@@ -113,7 +113,7 @@ body {
     align-items: center;
     margin-right: 5px;
     margin-bottom: 10px;
-    min-width: fit-content;
+    width: max-content;
     flex: 0 1 auto;
   }
   .profile img {
