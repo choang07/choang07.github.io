@@ -15,7 +15,7 @@ p, li {
 }
 
 body {
-  width: 90%;
+  width: 95%;
   min-width: 800px;
   margin: 0 auto;
   background-color:rgb(255, 237, 209, 100); 
@@ -44,6 +44,7 @@ body {
   background-color: rgb(235,164,54,92);
 }
 .container {
+  display: flex;
   max-width: 960px;
   min-height: 100%;
   display:flex;
@@ -51,12 +52,13 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  align-items: flex-start;
+  padding-bottom: 15px;
 }
 .profile {
   flex: 0 1 auto;
   margin-right: 15px;
-  width: 180px;
+  /*width: 180px;*/
+  flex: 1;
 }
 .profile img {
   height: 250px;
@@ -78,7 +80,8 @@ body {
   
 }
 .content {
-  flex: 0 2 auto;
+  flex: 4;
+  /*flex: 0 2 auto;*/
   background-color: rgb(213,225,235, 92);
   border-radius: 4px;
   padding: 15px;
