@@ -6,7 +6,7 @@ h1 {
   display:block;
   justify-content: space-around;
   font-weight: 200px;
-  margin-top:50px;
+  margin-top:5px;
 }
 
 p, li {
@@ -30,8 +30,8 @@ body {
   margin-bottom: 15px;
 }
 .subject {
-  font-size: 35pt;
-  margin-left: 35px;
+  font-size: 28pt;
+  margin-left: 25px;
 }
 .wrapper {
   padding-top: 15px;
