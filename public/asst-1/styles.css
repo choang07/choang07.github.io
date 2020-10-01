@@ -124,6 +124,9 @@ body {
     padding-left: 35px;
     padding-right: 35px;
   }
+  .content {
+    min-width: 350px;
+  }
 } 
 /*specs for mobile screen*/
 @media screen and (max-width:375px){
@@ -144,6 +147,8 @@ body {
     margin-top: 20px;
   } 
   .content {
+    flex-direction: column;
+    flex: 1 0 auto;
     padding: 20px;
     margin-bottom: 15px;
   }
