@@ -18,7 +18,7 @@ body {
   width: 90%;
   min-width: 800px;
   margin: 0 auto;
-  background-color:#D5E1EB; 
+  background-color:rgb(255, 237, 209, 100); 
 }
 .header {
   display: flex;
@@ -66,14 +66,14 @@ body {
 
 .profile p {
   padding: 15px;
-  background-color: whitesmoke;
+  background-color: rgb(255, 237, 209, 100);
   border-radius: 4px;
   flex: 1 0 auto;
   border: solid 1 px transparent;
 }
 .content {
   flex: 0 2 auto;
-  background-color: rgb(255, 237, 209,100);
+  background-color: rgb#D5E1EB;
   border-radius: 4px;
   padding: 15px;
   border-color: rgb(220, 60, 20, 1);
