@@ -97,7 +97,7 @@ body {
 }
 @media screen and (max-width:1000px) {
   .container {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -112,8 +112,9 @@ body {
     align-items: center;
     flex-flow: row;
     margin-bottom: 10px;
+    min-width: 400px;
     width: max-content;
-    flex: 0 1 auto;
+    flex: 1 0 auto;
   }
   .profile img {
     margin-left: 25px;
