@@ -92,7 +92,8 @@ body {
   color: rgb(161, 98, 0, 80);
 }
 .text {
-  flex: 0 2 auto;
+  display: flex;
+  flex-flow: row wrap;
 }
 .title {
   font-size: medium;
