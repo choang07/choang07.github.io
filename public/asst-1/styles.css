@@ -75,7 +75,7 @@ body {
   border-color: rgb(161, 98, 0, 3);
   border: solid 1 px transparent;
   border-style: groove;
-  overflow-wrap: normal;
+  
 }
 .content {
   flex: 0 2 auto;
@@ -84,13 +84,16 @@ body {
   padding: 15px;
   border-color: rgb(10, 97, 168, 66);
 }
- .content h2 {
+
+.content h2 {
   font-family: 'Roboto Slab', serif;
   font-weight: bolder;
   margin-bottom: 20px;
   color: rgb(161, 98, 0, 80);
 }
-
+.text {
+  flex: 0 2 auto;
+}
 .title {
   font-size: medium;
   font-style: italic;
