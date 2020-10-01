@@ -112,7 +112,7 @@ body {
     margin-bottom: 12px;
     flex: 1 0 auto;
   }
-  
+} 
 /*specs for mobile screen*/
 @media screen and (max-width:375px){
   .container {
@@ -127,6 +127,5 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    
   } 
 }
