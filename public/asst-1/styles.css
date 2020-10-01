@@ -140,10 +140,11 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 20px;
   } 
   .content {
+    padding: 20px;
     margin-bottom: 15px;
   }
 }
