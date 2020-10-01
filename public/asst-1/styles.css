@@ -112,6 +112,10 @@ body {
     margin-bottom: 12px;
     flex: 1 0 auto;
   }
+  .profile img {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 } 
 /*specs for mobile screen*/
 @media screen and (max-width:375px){
