@@ -75,7 +75,6 @@ body {
   border-radius: 4px;
   flex: 1 0 auto;
   border-color: rgb(161, 98, 0, 3);
-  border: solid 1 px transparent;
   border-style: groove;
   
 }
