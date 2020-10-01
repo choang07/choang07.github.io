@@ -10,8 +10,6 @@ h1 {
 p, li {
   font-family: 'Roboto Slab', serif;
   color: #2a2a2a;
-  display: flex;
-  flex-wrap: wrap;
 }
 body {
   width: 98%;
@@ -134,7 +132,7 @@ body {
     min-width: 200px;
     display: flex;
     flex-direction: columnll;
-    
+
     flex-wrap: wrap;
     padding: 20px;
     margin-bottom: 15px;
