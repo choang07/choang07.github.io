@@ -72,7 +72,6 @@ body {
   flex: 1 0 auto;
   border-color: rgb(161, 98, 0, 3);
   border-style: groove;
-  
 }
 .content {
   flex: 4;
