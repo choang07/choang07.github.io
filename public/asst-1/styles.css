@@ -54,7 +54,6 @@ body {
 .profile {
   flex: 0 1 auto;
   margin-right: 15px;
-  width: 180px;
 }
 .profile img {
   height: 250px;
@@ -72,7 +71,7 @@ body {
   flex: 1 0 auto;
   border-color: rgb(161, 98, 0, 3);
   border-style: groove;
-  
+  width: 150px;
 }
 .content {
   flex: 4;
@@ -121,7 +120,7 @@ body {
     flex: 1 0 auto;
   }
   .profile p {
-    width: 180px;
+    width: 400px;
     margin-left: 15px;
   }
   .profile img {
@@ -130,7 +129,7 @@ body {
 }
 /*specs for mobile screen*/
 @media screen and (max-width:375px){
-  .container {
+  /* .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -143,5 +142,5 @@ body {
     flex-direction: row;
     justify-content: space-between;
     
-  } 
+  }  */
 }
