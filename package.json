@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "chalk": "^4.1.0",
-    "cypress": "^5.2.0",
+    "cypress": "^5.3.0",
     "cypress-html-validate": "^1.2.2",
     "cypress-wait-until": "^1.7.1",
     "dotenv": "^8.2.0",
