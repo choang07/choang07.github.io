@@ -123,11 +123,11 @@ nav a, nav span {
 
 .flex-outer, .flex-inner{
   list-style-type: none;
-  padding:0;
 }
 .flex-outer{
   max-width: 800px;
   margin:0 auto;
+  padding:0 16px;
 }
 .flex-outer li,.flex-inner{
   display: flex;
@@ -148,13 +148,13 @@ nav a, nav span {
 }
 .flex-outer > li > label,
 .flex-outer li p {
-flex: 1 0 120px;
-max-width: 220px;
+flex: 1 0 125px;
+max-width: 225px;
 }
 
 .flex-outer > li > label + *,
 .flex-inner {
-flex: 1 0 220px;
+flex: 1 0 225px;
 }
 
 .flex-outer li p {
@@ -169,17 +169,17 @@ border: none;
 
 .flex-outer li button {
 margin-right: auto;
-padding: 8px 16px;
+padding: 6px 12px;
 border: none;
 background: #333;
 color: #f2f2f2;
 text-transform: uppercase;
 letter-spacing: .09em;
-border-radius: 2px;
+border-radius: 3px;
 }
 
 .flex-inner li {
-width: 100px;
+width: 80px;
 }
 
 .main {

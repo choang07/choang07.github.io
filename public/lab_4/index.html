@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Chi Hoang's lab 4</title>
-        <link rel ="stylesheet" href="style.css">
+        <link rel ="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="container">
@@ -13,12 +13,12 @@
                 <form method="post" action="/api" >
                     <ul class="flex-outer">
                         <li>
-                            <label for="firstName">First Name</label>
-                            <input type="text" maxlength="140" id="firstName" name="firstName" placeholder="Enter your first name here">
+                            <label for="fname">First Name</label>
+                            <input type="text" maxlength="140" id="fname" name="fname" placeholder="Enter your first name here">
                         </li>
                         <li>
-                            <label for="lastName">Last Name</label> 
-                            <input type="text" maxlength="140" id="lastName" name="lastName" placeholder="Enter your last name here">
+                            <label for="lname">Last Name</label> 
+                            <input type="text" maxlength="140" id="lname" name="lname" placeholder="Enter your last name here">
                         </li>
                         <li>
                             <label for="email">Email</label>
@@ -51,10 +51,10 @@
                             </ul>
                         </li>
                         <li>
-                            <button type="submit">Submit Form</button>
+                            <button id="submitBtn" name="submitBtn" type="submit">Submit Form</button>
                         </li>
-    
                     </ul>
+                    
                 </form>
             </div>
         </div>
