@@ -1,53 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <title>Assignment lab 5</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Cinzel+Decorative:700" rel="stylesheet">
-</head>
-<body>
-    <div class="header">
-        <h1 class="subject">Chi Hoang</h1>
-        <img src="lab5.PNG" alt="umd logo">
-    </div>
+    <head>
+        <title>Chi Hoang's lab 4</title>
+        <link href="https://fonts.googleapis.com/css2?family=Kufam:ital@1&display=swap" rel="stylesheet">
+        <link rel ="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="header">
+                    <h1>Chi Hoang's lab 4</h1>
+                </div>
+                <form method="post" action="/api" >
+                    <ul class="flex-outer">
+                        <li>
+                            <label for="fname">First Name</label>
+                            <input type="text" maxlength="140" id="fname" name="fname" placeholder="Enter your first name here">
+                        </li>
+                        <li>
+                            <label for="lname">Last Name</label> 
+                            <input type="text" maxlength="140" id="lname" name="lname" placeholder="Enter your last name here">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email here">
+                        </li>
+                        <li>
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone here">
+                        </li>
+                        <li>
+                            <label for="message">Text field</label>
+                            <textarea rows="5" cols="33" id="message" name="message" placeholder="This is a default message field"></textarea>
+                        </li>
+    
+                        <li>
+                            <p class="checkbox-list-label">Age</p>
+                            <ul class="flex-inner">
+                                <li>
+                                    <input type="checkbox" id="ageRange_18_35" name="ageRange">
+                                    <label for="ageRange_18_35">18-35</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="ageRange_35_50" name="ageRange">
+                                    <label for="ageRange_35_50">35-50</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="ageRange_50_65" name="ageRange">
+                                    <label for="ageRange_50_65">50-65</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button id="submitBtn" name="submitBtn" type="submit"
+                                onclick=""
+                            >Submit Form</button>
+                            <button id="activateBtn" name="activateBtn" type="button"
+                                onclick="testFunction()"
+                            >Activate</button>
+                        </li>
+                    </ul>
+                    
+                </form>
+            </div>
+        </div>
+<script>
+function testFunction() {
+    fetch('/api')
+    .then((response) => response.text())
+    .then((response) => {
+            console.log(response);
+    });
 
-    <div class="wrapper">
-        <div class="profile">
-            <img src="mickey-2.jpg" alt="profile">
-            <p>I would like to spend more of my time skating</p>
-        </div>
-        <div class="content">
-            <h2>Roles</h2>
-            <ol>
-                <li>
-                    <h2 class="jobtitle">Herder of Cats</h2>
-                    <div class="jobdesc">Ensure cats move in an even pattern over the greenward</div>
-                    <ul class="resp">
-                        <li>Organize a system of cat motion</li>
-                        <li>Move felines in an artist way</li>
-                        <li>Dance choreography</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2 class="jobtitle">Digital Service Designer</h2>
-                    <div class="jobdesc">Design and implement digital services for Canada-US audience</div>
-                    <ul class="resp">
-                        <li>Javasript, HTML, CSS</li>
-                        <li>Scope team development goals</li>
-                        <li>Wireframe page layouts and data flow</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2 class="jobtitle">Makerspace laser wrangler</h2>
-                    <div class="jobdesc">Ensure a class-4laser system remained operational over a sustantial window of time</div>
-                    <ul class="resp">
-                        <li>Laser cleaning and maintanence</li>
-                        <li>Knowledge of laser specialty techniques</li>
-                        <li>Familiarity with extensive materials list and respose to lasers</li>
-                    </ul>
-                </li>
-            </ol>
-        </div>
-    </div>
-</body>
+    const h1_element = document.querySelector(".header h1");
+    h1_element.innerHTML = 'Lab 5 for Chi Hoang';
+
+    const newTitle = document.querySelector("title");
+    newTitle.innerHTML ="Lab 5 for Chi Hoang";
+
+    const newBackgroundColor = document.querySelector("body");
+    newBackgroundColor.style.backgroundColor = "#a7d2ff";
+
+    const container = document.querySelector(".container");
+    container.style.width = "100%";
+
+    const fruit = document.querySelector(".checkbox-list-label");
+    fruit.innerHTML ="Fruits";
+
+    const fruitLbls = document.querySelectorAll(".flex-inner li label");
+    // return an array ['ageRange_18_35', 'ageRange_35_50', 'ageRange_50_65']
+    fruitLbls.forEach(fruit => {
+        if (fruit.getAttribute("for") == 'ageRange_18_35')
+            fruit.innerHTML = "kiwi";
+        else if (fruit.getAttribute("for")=='ageRange_35_50')
+            fruit.innerHTML = "dragonfruit";
+        else  
+            fruit.innerHTML = "pomelo";
+    });
+
+    // var kiwi = document.querySelector("[for=ageRange_18_35]");
+    // kiwi.innerHTML ="kiwi";
+    
+    // var dragonfruit = document.querySelector("[for=ageRange_35_50]");
+    // dragonfruit.innerHTML ="dragonfruit";
+    
+    // var pomelo = document.querySelector("[for=ageRange_50_65]");
+    // pomelo.innerHTML ="pomelo";
+
+
+}
+</script>
+    </body>
 </html>
