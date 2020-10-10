@@ -87,28 +87,26 @@ function testFunction() {
     const fruit = document.querySelector(".checkbox-list-label");
     fruit.innerHTML ="Fruits";
 
-    const fruitLbls = document.querySelectorAll(".flex-inner li label");
+    const fruitLabel = document.querySelectorAll('.flex-inner li label');
+    const fruitArray = ["kiwi","dragonfruit","pomelo"];
+    fruitLabel.forEach((el,i) =>{
+        const text = el.innerText;
+        el.innerText = fruitArray[i];
+    })
+
+    //const fruitLbls = document.querySelectorAll(".flex-inner li label");
     // return an array ['ageRange_18_35', 'ageRange_35_50', 'ageRange_50_65']
-    fruitLbls.forEach(fruit => {
-        if (fruit.getAttribute("for") == 'ageRange_18_35')
-            fruit.innerHTML = "kiwi";
-        else if (fruit.getAttribute("for")=='ageRange_35_50')
-            fruit.innerHTML = "dragonfruit";
-        else  
-            fruit.innerHTML = "pomelo";
-    });
-
-    // var kiwi = document.querySelector("[for=ageRange_18_35]");
-    // kiwi.innerHTML ="kiwi";
-    
-    // var dragonfruit = document.querySelector("[for=ageRange_35_50]");
-    // dragonfruit.innerHTML ="dragonfruit";
-    
-    // var pomelo = document.querySelector("[for=ageRange_50_65]");
-    // pomelo.innerHTML ="pomelo";
-
-
+    //fruitLbls.forEach(fruit => {
+    //    if (fruit.getAttribute("for") == 'ageRange_18_35')
+    //        fruit.innerHTML = "kiwi";
+    //    else if (fruit.getAttribute("for")=='ageRange_35_50')
+    //        fruit.innerHTML = "dragonfruit";
+    //    else  
+    //        fruit.innerHTML = "pomelo";
+    //});
 }
+const myFunction = () => {}
+    
 </script>
     </body>
 </html>
