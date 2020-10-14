@@ -91,6 +91,7 @@ function testFunction() {
     const fruitArray = ["kiwi","dragonfruit","pomelo"];
     fruitLabel.forEach((el,i) =>{
         const text = el.innerText;
+        console.log(el,i);
         el.innerText = fruitArray[i];
     })
 
