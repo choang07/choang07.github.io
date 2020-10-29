@@ -63,7 +63,7 @@ describe('Lab 7', () => {
       cy.get('#chartContainer');
     });
 
-    it('Links to your JS scripts in the head of your HTML', () => {
+    it('Links to your JS scripts in the head and body of your HTML', () => {
       cy.fixture('test_values').then((json) => {
         cy.get('head script[src="https://code.jquery.com/jquery-3.5.1.slim.min.js"]');
         cy.get('body script[src="script.js"]');
