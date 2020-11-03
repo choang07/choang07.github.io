@@ -24,7 +24,7 @@ function getRandomInt(max) {
 document.body.addEventListener('submit', async (e) => {
   e.preventDefault(); // this stops whatever the browser wanted to do itself.
   const form = $(e.target).serializeArray(); // here we're using jQuery to serialize the form
-  fetch('/api', {
+  fetch('/api6', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
