@@ -1,22 +1,5 @@
-function convertRestaurantsToCategories(restaurantList) {
-  // process your restaurants here!
-  const list = restaurantList.reduce((collection, item, i) => {
-    const categoryName = item.category;
-    
-    const foundCategory = collection.find( c => {
-      return c.label === categoryName;
-    })
-    if (foundCategory) {
-      foundCategory.y++;
-    } else {
-      let newCategory = {'label': categoryName, 'y': 1};
-      collection.push(newCategory);
-    }
-
-    return collection;
-  }, []);
-  return list;
-}
+// step 1 of part 4
+// delete the function convertRestaurantsToCategories
 
 function makeYourOptionsObject(datapointsFromRestaurantsList) {
   // set your chart configuration here!
@@ -82,8 +65,9 @@ function runThisWithResultsFromServer(jsonFromServer) {
   // Process your restaurants list
   // Make a configuration object for your chart
   // Instantiate your chart
-  const reorganizedData = convertRestaurantsToCategories(jsonFromServer);
-  const options = makeYourOptionsObject(reorganizedData);
+  // step 3 of part 4
+  // remove calling convertRestaurantsToCategories 
+  const options = makeYourOptionsObject(jsonFromServer);
   const chart = new CanvasJS.Chart('chartContainer', options);
   chart.render();
 }
@@ -92,7 +76,9 @@ function runThisWithResultsFromServer(jsonFromServer) {
 document.body.addEventListener('submit', async (e) => {
   e.preventDefault(); // this stops whatever the browser wanted to do itself.
   const form = $(e.target).serializeArray();
-  fetch('/api', {
+  // step 2 of part 4
+  // change /api to /sql
+  fetch('/sql', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
